@@ -71,7 +71,7 @@ timeline-img: "/img/timeline/default.png"
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "gaetan.barriol@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
@@ -84,9 +84,9 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  "Gaetan Barriol is an awesome person. He lives in Montréal, where he works on two-dimensional
-  engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+  "Gaetan Barriol is an awesome person. He lives in Montréal, where he works on engineering projects. 
+  In his spare time, Gaetan likes to eat food, to hit the gym and to play games."
+author_blurb_image: "/img/author.jpg"
 
 ##################
 # Social Buttons #
