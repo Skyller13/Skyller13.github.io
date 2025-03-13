@@ -86,7 +86,7 @@ pgp: False
 author_blurb:
   "Gaetan Barriol is an awesome person. He lives in Montréal, where he works on engineering projects. 
   In his spare time, Gaetan likes to eat food, to hit the gym and to play games."
-author_blurb_image: "/img/author.jpg"
+author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
