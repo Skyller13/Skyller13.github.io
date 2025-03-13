@@ -20,7 +20,7 @@ black-favicon: "/img/black-lab-glass.ico"
 ################
 # Header layout#
 ################
-background-img: "background.jpg"
+background-img: "img/background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
