@@ -69,19 +69,6 @@ email: "gaetan.barriol@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
-################
-# Author Blurb #
-################
-
-# The author blurb goes underneath blog posts.
-# This works best when your author blurb image has a transparent background, or matches your site background color.
-
-# if the author_blurb is not set, then this feature is skipped
-author_blurb:
-  "Gaetan Barriol is an awesome person. He lives in Montréal, where he works on engineering projects. 
-  In his spare time, Gaetan likes to eat food, to hit the gym and to play games."
-author_blurb_image: "/img/author.png"
-
 ##################
 # Social Buttons #
 ##################
