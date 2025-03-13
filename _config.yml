@@ -57,13 +57,19 @@ disqus-shortname: "Gaetan"
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
-
+  - image: "/img/timeline/dpt.png"
+    date: "May 2022 - Today"
+    description: "Programming software applications"
+  - image: "/img/timeline/IvoryTower.png"
+    date: "July 2021 - December 2021"
+    description: "UI Programmer trainee"
+  - image: "/img/timeline/creajeux.png"
+    date: "September 2017 - July 2021 "
+    description: "Started coding\n Bachelor in programming"
+  - image: "/img/timeline/logo-saint-eloi.png"
+    date: "September 2015 - July 2017"
+    description: "BTEC in electronics"
+    
 # First image of the Timeline
 timeline-img: "/img/timeline/default.png"
 
@@ -105,7 +111,6 @@ social:
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Blog: "latest-post"
   Timeline: "timeline"
   Contact: "contact"
 # Exclusion list from the generated _site
