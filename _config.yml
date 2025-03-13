@@ -65,13 +65,14 @@ events:
     description: "UI Programmer trainee"
   - image: "/img/timeline/creajeux.png"
     date: "September 2017 - July 2021 "
-    description: "Started coding\n Bachelor in programming"
+    description: "Started coding -
+    Bachelor in programming"
   - image: "/img/timeline/logo-saint-eloi.png"
     date: "September 2015 - July 2017"
     description: "BTEC in electronics"
     
 # First image of the Timeline
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/young_me.jpg"
 
 ###########
 # Contact #
