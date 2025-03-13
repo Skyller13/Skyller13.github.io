@@ -16,30 +16,23 @@ title: "{ Gaetan Barriol }"
 description: "Blog and website of Gaetan Barriol, blogging mainly for tech. Opinions expressed are mine."
 keywords: "gaetan, barriol, personal"
 favicon: "/img/favicon.ico"
+black-favicon: "/img/black-lab-glass.ico"
 ################
 # Header layout#
 ################
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "intro-bg.jpg"
+background-img: "background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+quote: "What are you waiting for?"
+# me-img: "/img/author.jpg"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
-# me-img: "https://github.com/user_name.png?size=500"
-
-# To use gravatar profile pic uncomment the following line and replace 'email_hash'
-# with your gravatar profile email hash.
-# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
-# just enter your email and it will generate the hash.
-
-# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+me-img: "https://github.com/Skyller13.png?size=500"
 
 #######
 # Blog #
@@ -91,7 +84,7 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
+  "Gaetan Barriol is an awesome person. He lives in Montréal, where he works on two-dimensional
   engineering projects. In his spare time, John likes to eat cotton candy."
 author_blurb_image: "/img/author.png"
 
@@ -101,13 +94,9 @@ author_blurb_image: "/img/author.png"
 
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/Skyller13"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
-  - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://www.linkedin.com/in/gaetan-barriol/"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
