@@ -12,7 +12,7 @@ lang: "en"
 author: "Gaetan Barriol"
 title: "{ Gaetan Barriol }"
 description: "Blog and website of Gaetan Barriol. Here you can find portofolio and information about myself."
-keywords: "gaetan, barriol, personal"
+keywords: "gaetan, barriol, personal, programming, game, development, developer, engine, tools, gameplay"
 ################
 # Header layout#
 ################
@@ -23,23 +23,6 @@ background-img: "img/background.jpg"
 ##############################
 quote: "What are you waiting for?"
 me-img: "https://github.com/Skyller13.png?size=500"
-
-#######
-# Blog #
-########
-
-post-preview-words: 96
-paginate: 5
-email-share: True
-fb-share: True
-twitter-share: True
-linkedin-share: True
-reddit-share: True
-tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-disqus-shortname: "Gaetan"
 
 ############
 # Timeline #
@@ -72,7 +55,6 @@ pgp: False
 ##################
 # Social Buttons #
 ##################
-
 social:
   - icon: "github"
     url: "https://github.com/Skyller13"
