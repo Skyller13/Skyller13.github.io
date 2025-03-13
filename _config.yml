@@ -1,7 +1,7 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "https://le4ker.github.io/personal-jekyll-theme"
+url: "https://Skyller13.github.io"
 
 # Google tracking id
 google-tracking-id: "UA-XXXXXXXX-X"
@@ -11,10 +11,10 @@ google-tracking-id: "UA-XXXXXXXX-X"
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Gaetan Barriol"
+title: "{ Gaetan Barriol }"
+description: "Blog and website of Gaetan Barriol, blogging mainly for tech. Opinions expressed are mine."
+keywords: "gaetan, barriol, personal"
 favicon: "/img/favicon.ico"
 ################
 # Header layout#
