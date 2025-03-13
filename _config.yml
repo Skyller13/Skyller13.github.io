@@ -7,12 +7,12 @@ google-tracking-id: "UA-XXXXXXXX-X"
 #############
 # HTML Head #
 #############
-
 lang: "en"
 author: "Gaetan Barriol"
 title: "{ Gaetan Barriol }"
 description: "Blog and website of Gaetan Barriol. Here you can find portofolio and information about myself."
 keywords: "gaetan, barriol, personal, programming, game, development, developer, engine, tools, gameplay"
+
 ################
 # Header layout#
 ################
