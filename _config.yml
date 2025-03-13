@@ -1,6 +1,4 @@
 # Site settings
-
-# NB! Set your site's url, otherwise nothing will work
 url: "https://Skyller13.github.io"
 
 # Google tracking id
@@ -15,8 +13,6 @@ author: "Gaetan Barriol"
 title: "{ Gaetan Barriol }"
 description: "Blog and website of Gaetan Barriol, blogging mainly for tech. Opinions expressed are mine."
 keywords: "gaetan, barriol, personal"
-favicon: "/img/favicon.ico"
-black-favicon: "/img/black-lab-glass.ico"
 ################
 # Header layout#
 ################
@@ -25,13 +21,7 @@ background-img: "img/background.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
-
 quote: "What are you waiting for?"
-# me-img: "/img/author.jpg"
-
-# To use github profile pic uncomment the following line and replace 'user_name'
-# with your github user name.
-
 me-img: "https://github.com/Skyller13.png?size=500"
 
 #######
@@ -49,13 +39,11 @@ tumblr-share: True
 pinterest-share: True
 pocket-share: True
 vkontakte-share: True
-
 disqus-shortname: "Gaetan"
 
 ############
 # Timeline #
 ############
-
 events:
   - image: "/img/timeline/dpt.png"
     date: "May 2022 - Today"
@@ -77,7 +65,6 @@ timeline-img: "/img/timeline/young_me.jpg"
 ###########
 # Contact #
 ###########
-
 email: "gaetan.barriol@gmail.com"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
@@ -113,6 +100,7 @@ social:
 pages_list:
   About: "about"
   Timeline: "timeline"
+  Projects: "Projects"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
