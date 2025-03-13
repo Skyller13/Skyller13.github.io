@@ -50,7 +50,7 @@ pinterest-share: True
 pocket-share: True
 vkontakte-share: True
 
-disqus-shortname: "personal-jekyll-theme"
+disqus-shortname: "Gaetan"
 
 ############
 # Timeline #
@@ -97,6 +97,8 @@ social:
     url: "https://github.com/Skyller13"
   - icon: "linkedin-in"
     url: "https://www.linkedin.com/in/gaetan-barriol/"
+  - icon: "youtube"
+    url: "https://www.youtube.com/@gbarriol"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
