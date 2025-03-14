@@ -100,6 +100,5 @@ paginate_path: "blog/page:num/"
 sass:
   style: compressed
 plugins:
-  - jekyll-paginate
-  - jekyll-spaceship
-  
+   - jekyll-paginate
+   - jekyll-spaceship
