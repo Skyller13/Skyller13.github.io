@@ -16,7 +16,7 @@ keywords: "gaetan, barriol, personal, programming, game, development, developer,
 ################
 # Header layout#
 ################
-background-image: "img/background.jpg"
+background-img: "img/background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -48,7 +48,6 @@ timeline-img: "/img/timeline/young_me.jpg"
 # Contact #
 ###########
 email: "gaetan.barriol@gmail.com"
-image: "img/author.png"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
@@ -69,7 +68,6 @@ social:
 pages_list:
   About: "about"
   Timeline: "timeline"
-  Projects: "projects
   Contact: "contact"
   
 # Exclusion list from the generated _site
