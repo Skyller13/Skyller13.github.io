@@ -89,3 +89,4 @@ sass:
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
+  
