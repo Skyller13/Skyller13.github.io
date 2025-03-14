@@ -16,7 +16,7 @@ keywords: "gaetan, barriol, personal, programming, game, development, developer,
 ################
 # Header layout#
 ################
-background-image: "img/background.jpg"
+background-img: "img/background.jpg"
 
 ##############################
 # Dynamic Text on the Header #
