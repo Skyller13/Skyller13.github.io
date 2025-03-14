@@ -36,8 +36,7 @@ events:
     description: "UI Programmer trainee"
   - image: "/img/timeline/creajeux.png"
     date: "September 2017 - July 2021 "
-    description: "Started coding -
-    Bachelor in programming"
+    description: "Started coding -<br>Bachelor in programming"
   - image: "/img/timeline/logo-saint-eloi.png"
     date: "September 2015 - July 2017"
     description: "BTEC in electronics"
@@ -71,6 +70,7 @@ pages_list:
   Timeline: "timeline"
   Projects: "projects"
   Contact: "contact"
+  
 # Exclusion list from the generated _site
 exclude:
   - LICENSE
@@ -82,6 +82,7 @@ exclude:
   - docker-compose.yml
 # Pagination path
 paginate_path: "blog/page:num/"
+
 # Enable minification SASS
 sass:
   style: compressed
