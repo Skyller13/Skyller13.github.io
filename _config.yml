@@ -48,6 +48,7 @@ timeline-img: "/img/timeline/young_me.jpg"
 # Contact #
 ###########
 email: "gaetan.barriol@gmail.com"
+image: "img/author.png"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 
