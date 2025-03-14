@@ -68,6 +68,7 @@ social:
 pages_list:
   About: "about"
   Timeline: "timeline"
+  Projects: "projects"
   Contact: "contact"
   
 # Exclusion list from the generated _site
