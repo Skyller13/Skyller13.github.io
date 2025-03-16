@@ -50,12 +50,10 @@ timeline-img: "/img/timeline/young_me.jpg"
 ############
 projects:
   - title: "Project Title 1"
+    description: "What I did on the project, including key technologies and accomplishments."
     image: "img/project1.jpg"
-    description: "Brief description of what you worked on in this project."
-
-  - title: "Project Title 2"
-    image: "img/project2.jpg"
-    description: "Another brief description of this project."
+    trailer: "https://www.youtube.com/watch?v=example"  # Or leave empty if no trailer
+    download: "https://drive.google.com/drive/folders/xyz"  # Link to the project .exe
 
 ###########
 # Contact #
