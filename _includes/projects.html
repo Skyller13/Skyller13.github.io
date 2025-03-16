@@ -1,35 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <style>
-        .project-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .project-item {
-            text-align: center;
-        }
-        .project-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Our Projects</h1>
-    <div class="project-grid">
-        {% for project in projects %}
-        <div class="project-item">
-            <img src="{{ project.image_url }}" alt="{{ project.name }}">
-            <p>{{ project.name }}</p>
-        </div>
-        {% endfor %}
+<div class="project-grid">
+  {% for project in site.projects %}
+    <div class="project-item">
+      <img src="{{ project.image_url }}" alt="{{ project.name }}">
+      <p>{{ project.name }}</p>
     </div>
-</body>
-</html>
+  {% endfor %}
+</div>
+
