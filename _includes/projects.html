@@ -6,15 +6,31 @@
 >
   <div class="row justify-content-center">
     <div class="col-12">{{ page.content | markdownify }}</div>
-  <div class="row">
-    <div class="4u 12u$(mobile)">
-      <div class="item">
-        <a href="#" class="image fit"><img src="{{ 'img/blank.jpg' | relative_url }}" alt="Europe Madness" /></a>
-        <header>
-          <h3>Europe Madness</h3>
-        </header>
+ 
+    <div class="row pt-5">
+        {% for project in site.projects %}
+        <div class="col-md-4 col-12 mb-4">
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                class="img-fluid"
+                src="{{ site.url }}/{{ project.image }}"
+                alt="{{ project.title }}"
+                width="100%"
+              />
+            </div>
+            <div class="project-details mt-3">
+              <h4>{{ project.title }}</h4>
+              <p>{{ project.description | markdownify }}</p>
+              {% if project.link %}
+              <a href="{{ project.link }}" class="btn btn-primary" target="_blank">View Project</a>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+        {% endfor %}
       </div>
-    </div>
+ 
   </div>
   </div>
 </section>
