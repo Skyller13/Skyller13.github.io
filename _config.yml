@@ -50,7 +50,7 @@ timeline-img: "/img/timeline/young_me.jpg"
 ############
 projects:
   - title: "Europe Madness"
-    image: "img/blank.jpg"
+    image: "img/projects/blank.jpg"
     description: "Description of Europe Madness."
     link: ""
 
