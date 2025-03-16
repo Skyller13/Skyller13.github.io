@@ -16,7 +16,8 @@ keywords: "gaetan, barriol, personal, programming, game, development, developer,
 ################
 # Header layout#
 ################
-background-img: "Background.jpg"
+black-favicon: "/img/black-lab-glass.ico"
+background-img: "intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
