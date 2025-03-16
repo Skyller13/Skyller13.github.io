@@ -96,7 +96,7 @@ projects:
   - title: "Daisy Engine (Vulkan 3D engine)"
     image: "img/projects/DaisyEngine.png"
     description: "Description of DaisyEngine."
-    link: ""
+    link: "https://github.com/Skyller13/DaisyEngine"
   - title: "Nerisia"
     image: "img/projects/Nerisia.jpg"
     description: "Description of Nerisia."
