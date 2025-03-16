@@ -45,13 +45,6 @@ events:
 # First image of the Timeline
 timeline-img: "/img/timeline/young_me.jpg"
 
-############
-# Projects #
-############
-projects:
-  - name: "Europe Madness"
-    image: "img/blank.jpg"
-
 ###########
 # Contact #
 ###########
