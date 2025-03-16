@@ -25,6 +25,15 @@
       {% else %}
       <p><a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i>{{ site.email }}</a></p>
       {% endif %} {% endif %}
+	  
+	  <! -- Phone Number Section -->
+	{% if site.phone %}
+	<p>
+		<a href="tel:{{ site.phone }}">
+		 <i class="fas fa-phone"></i> {{ site.phone }}
+		</a>
+	</p>
+	{% endif %}
     </div>
   </div>
 </section>
