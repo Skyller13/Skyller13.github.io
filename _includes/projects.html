@@ -12,12 +12,13 @@
         <div class="col-md-4 col-12 mb-4">
           <div class="project-card">
             <div class="project-image">
-              <img
-                class="img-fluid"
-                src="{{ site.url }}/{{ project.image }}"
-                alt="{{ project.title }}"
-                width="100%"
-              />
+              {% if project.image or project.gif %}
+                {% if project.gif %}
+                  <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
+                {% else %}
+                  <img class="img-fluid" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
+                {% endif %}
+              {% endif %}
             </div>
             <div class="project-details mt-3">
               <h4>{{ project.title }}</h4>

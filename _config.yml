@@ -52,7 +52,11 @@ projects:
   - title: "Europe Madness"
     image: "img/projects/blank.jpg"
     description: "Description of Europe Madness."
-    link: ""
+    link: "https://drive.google.com/file/d/1VVd0pPadSf2CuZr5N5XMRIZEnGUL5kYA/view?usp=sharing"
+  - title: "inSECURE"
+    image: "img/projects/blank.jpg"
+    description: "Description of Europe Madness."
+    link: "https://drive.google.com/file/d/1VVd0pPadSf2CuZr5N5XMRIZEnGUL5kYA/view?usp=sharing"
 
 ###########
 # Contact #
