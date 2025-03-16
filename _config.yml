@@ -94,17 +94,15 @@ projects:
     link: "https://www.mbam.qc.ca/fr/expositions/jean-michel-basquiat/"
     trailer: "https://www.youtube.com/watch?v=toRe8_Zontk"
   - title: "Daisy Engine (Vulkan 3D engine)"
-    image: "img/projects/blank.jpg"
+    image: "img/projects/DaisyEngine.png"
     description: "Description of DaisyEngine."
     link: ""
   - title: "Nerisia"
-    image: "img/projects/blank.jpg"
+    image: "img/projects/Nerisia.jpg"
     description: "Description of Nerisia."
-    link: ""
   - title: "Spread"
     image: "img/projects/blank.jpg"
     description: "Description of Spread."
-    link: ""
 
 ###########
 # Contact #
