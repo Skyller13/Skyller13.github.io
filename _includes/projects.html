@@ -1,9 +1,17 @@
+<!-- Projects Start -->
+
+<section
+  id="{{ page.section-type }}"
+  class="container content-section text-center"
+>
 <div class="project-grid">
   {% for project in site.projects %}
     <div class="project-item">
-      <img src="{{ project.image_url }}" alt="{{ project.name }}">
+      <img src="{{ project.image }}" alt="{{ project.name }}">
       <p>{{ project.name }}</p>
     </div>
   {% endfor %}
 </div>
+</section>
 
+<!-- Projects End -->
