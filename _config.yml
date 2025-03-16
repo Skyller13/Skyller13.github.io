@@ -49,8 +49,8 @@ timeline-img: "/img/timeline/young_me.jpg"
 # Projects #
 ############
 projects:
-  - name: "Project Title 1"
-    image: "img/project1.jpg"
+  - name: "Europe Madness"
+    image: "img/blank.jpg"
 
 ###########
 # Contact #
