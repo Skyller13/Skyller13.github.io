@@ -52,12 +52,10 @@ projects:
   - title: "Project Title 1"
     image: "img/project1.jpg"
     description: "Brief description of what you worked on in this project."
-    download_link: "files/project1.zip"
 
   - title: "Project Title 2"
     image: "img/project2.jpg"
     description: "Another brief description of this project."
-    download_link: "files/project2.zip"
 
 ###########
 # Contact #
