@@ -54,9 +54,9 @@ projects:
     description: "Description of Europe Madness."
     link: "https://drive.google.com/file/d/1VVd0pPadSf2CuZr5N5XMRIZEnGUL5kYA/view?usp=sharing"
   - title: "inSECURE"
-    image: "img/projects/blank.jpg"
-    description: "Description of Europe Madness."
-    link: "https://drive.google.com/file/d/1VVd0pPadSf2CuZr5N5XMRIZEnGUL5kYA/view?usp=sharing"
+    image: "img/projects/inSecure.gif"
+    description: "Description of inSECURE."
+    link: "https://drive.google.com/file/d/1QSvtCIzH1PI-rpZOaKuJoasIuoDErI9F/view?usp=sharing"
 
 ###########
 # Contact #
