@@ -115,6 +115,13 @@ projects:
     description: "Spread is a 3D game that I am working on where you play in a post-apocalyptic world where each character is mortal and has it's very own quests.
     Inspired by many zombies games such as Dying Light, Dead Island and World War Z."
 
+##########
+# Skills #
+##########
+skills:
+  - name: "Unity"
+    description: "Game Engine"
+
 ###########
 # Contact #
 ###########
