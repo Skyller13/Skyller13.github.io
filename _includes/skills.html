@@ -117,16 +117,18 @@ h2 {
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive */
+  gap: 20px; /* Space between items */
+  justify-content: center; /* Center align */
+  max-width: 800px; /* Adjust based on preference */
+  margin: 0 auto;
 }
 
 .skill-item img {
   background: none;
   display: block;
   width: 80px; /* Adjust based on your layout */
-  height: auto;
+  height: 80px;
   object-fit: contain; /* Ensures no white background fills */
 }
 
