@@ -119,10 +119,11 @@ h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Responsive */
   gap: 20px; /* Space between items */
-  justify-content: center; /* Center align */
-  align-items: center;
+  justify-items: center; /* Center align items horizontally */
+  align-items: center; /* Center align items vertically */
   max-width: 1000px; /* Adjust based on preference */
-  margin: 0 auto;
+  margin: 0 auto; /* Centers the entire grid container horizontally */
+  width: 100%; /* Ensure the container can expand fully */
 }
 
 .skill-item {
