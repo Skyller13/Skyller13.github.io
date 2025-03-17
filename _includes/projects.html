@@ -15,12 +15,11 @@
 				<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
 			</div>
             <div class="project-details mt-3">
-			{% if project.gif %}
-			<img class="img-fluid overlay-gif" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
-			{% endif %}
-			{% else %}
-			<h4>{{ project.title }}</h4>
-			{% endif %}
+			    {% if project.gif %}
+                  <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
+                {% else %}
+				<h4>{{ project.title }}</h4>
+                {% endif %}
 			  <p>{{ project.description | markdownify }}</p>
               <!-- Main Project Link (e.g., download link) -->
               {% if project.link %}
