@@ -99,11 +99,12 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   color: #FFFFFF;
-  padding: 8px 15px;
+  padding: 10px;
   background: #4CAF50; /* Solid green background */
   border-radius: 6px;
-  display: inline-block; /* Ensures it doesn't stretch full width */
-  margin: 30px auto;
+  width: 100%; /* Now it takes full width */
+  max-width: 800px; /* Adjust based on grid size */
+  margin: 30px auto; /* Center it */
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -147,7 +148,9 @@ h2 {
 }
 
 .skill-item p {
+  font-size: 14px;
   color: #CCCCCC; /* A softer gray for subtitles */
+  margin-top: 5px;
 }
 </style>
 
