@@ -119,10 +119,10 @@ projects:
 # Skills #
 ##########
 soft_skills:
-  - name: "Problem-Solving"
+  - name: Problem-Solving
     description: "Debugging, optimization, and tackling complex technical challenges."
     icon: "img/skills/problem_solving.png"
-  - name: Collaboration & Teamwork
+  - name: Teamwork
     description: "Working effectively with designers, artists, and fellow developers."
     icon: "img/skills/teamwork.png"
   - name: Communication
@@ -134,7 +134,7 @@ soft_skills:
   - name: Time Management
     description: "Balancing multiple projects and meeting deadlines efficiently."
     icon: "img/skills/time_management.png"
-  - name: Creativity & Innovation
+  - name: Innovation
     description: "Developing unique mechanics, tools, and technical solutions."
     icon: "img/skills/creativity_innovation.png"
     
