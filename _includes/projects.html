@@ -11,15 +11,12 @@
         {% for project in site.projects %}
         <div class="col-md-4 col-12 mb-4">
           <div class="project-card">
-            <div class="project-image">
-              {% if project.image or project.gif %}
-                {% if project.gif %}
-                  <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
-                {% else %}
-                  <img class="img-fluid" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
-                {% endif %}
-              {% endif %}
-            </div>
+			<div class="image-container">
+				<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
+				{% if project.gif %}
+				<img class="img-fluid overlay-gif" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
+				{% endif %}
+			</div>
             <div class="project-details mt-3">
               <h4>{{ project.title }}</h4>
               <p>{{ project.description | markdownify }}</p>
