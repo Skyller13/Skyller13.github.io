@@ -8,56 +8,123 @@
     <div class="col-12">{{ page.content | markdownify }}</div>
   </div>
    <div class="skills-container">
-    {% for skill in site.skills %}
-      <div class="skill">
-        <h3>{{ skill.name }}</h3>
-        <div class="progress-bar">
-          <div class="progress" style="width: {{ skill.level }}%"></div>
+     <!-- Game Engines -->
+  <div class="skill-category">
+    <h3>Game Engines</h3>
+    <div class="skills-grid">
+      {% for skill in site.game_engines %}
+        <div class="skill-item">
+          <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+          <p>{{ skill.name }}</p>
         </div>
-        <p>{{ skill.description }}</p>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+  
+   <!-- Project management  -->
+  <div class="skill-category">
+    <h3>Game Engines</h3>
+    <div class="skills-grid">
+      {% for skill in site.project_management %}
+        <div class="skill-item">
+          <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+          <p>{{ skill.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+     <!-- Version control  -->
+  <div class="skill-category">
+    <h3>Game Engines</h3>
+    <div class="skills-grid">
+      {% for skill in site.version_control %}
+        <div class="skill-item">
+          <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+          <p>{{ skill.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+     <!-- Graphics APIS  -->
+  <div class="skill-category">
+    <h3>Game Engines</h3>
+    <div class="skills-grid">
+      {% for skill in site.graphics_apis_libraries %}
+        <div class="skill-item">
+          <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+          <p>{{ skill.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+     <!-- Programming languages  -->
+  <div class="skill-category">
+    <h3>Game Engines</h3>
+    <div class="skills-grid">
+      {% for skill in site.programming_languages %}
+        <div class="skill-item">
+          <img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
+          <p>{{ skill.name }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
   </div>
 </div>
 
 <style>
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 30px;
+.skills {
+  padding: 30px;
 }
 
-.skill {
+h2 {
+  text-align: center;
+  font-size: 30px;
   margin-bottom: 30px;
 }
 
-.progress-bar {
-  background-color: #e0e0e0;
-  border-radius: 10px;
-  width: 100%;
-  height: 20px;
-  margin: 10px 0;
-  overflow: hidden;
+.skill-category {
+  margin-bottom: 40px;
 }
 
-.progress {
-  background-color: #4CAF50; /* Color for the progress bar */
-  height: 100%;
-  transition: width 1s ease-out;
-  border-radius: 10px 0 0 10px; /* Rounded corners on the left */
+.skill-category h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.skill h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 
-.skill p {
-  font-size: 14px;
-  color: #555;
+.skill-item {
+  text-align: center;
+  transition: transform 0.3s ease;
 }
 
+.skill-item:hover {
+  transform: scale(1.1);
+}
+
+.skill-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-item p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
 </style>
 
 </section>

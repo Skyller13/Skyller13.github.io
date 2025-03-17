@@ -118,10 +118,51 @@ projects:
 ##########
 # Skills #
 ##########
-skills:
-  - name: "Unity"
-    description: "Game Engine"
-    level: 85
+game_engines:
+  - name: Unity
+    icon: /skills/unity-icon.png
+  - name: Unreal Engine
+    icon: /skills/unreal-icon.png
+
+project_management:
+  - name: Jira
+    icon: /skills/jira-icon.png
+  - name: Trello
+    icon: /skills/trello-icon.png
+
+version_control:
+  - name: GitHub
+    icon: /skills/github-icon.png
+  - name: SourceTree
+    icon: /skills/sourcetree-icon.png
+  - name: Perforce
+    icon: /skills/perforce-icon.png
+  - name: Tortoise SVN
+    icon: /skills/svn-icon.png
+
+graphics_apis_libraries:
+  - name: Vulkan
+    icon: /skills/vulkan-icon.png
+  - name: OpenGL
+    icon: /skills/opengl-icon.png
+  - name: CSFML
+    icon: /skills/csfml-icon.png
+  - name: OpenCV
+    icon: /skills/opencv-icon.png
+  - name: ImGui
+    icon: /skills/imgui-icon.png
+
+programming_languages:
+  - name: C
+    icon: /skills/c-icon.png
+  - name: C#
+    icon: /skills/csharp-icon.png
+  - name: C++
+    icon: /skills/cplusplus-icon.png
+  - name: Lua
+    icon: /skills/lua-icon.png
+  - name: AS3
+    icon: /skills/as3-icon.png
 
 ###########
 # Contact #
