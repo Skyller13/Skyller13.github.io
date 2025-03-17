@@ -50,7 +50,7 @@ timeline-img: "/img/timeline/young_me.jpg"
 ############
 projects:
   - title: "Europe Madness"
-    image: "img/projects/blank.jpg"
+    image: "img/projects/game.png"
     description: "Europe Madness is a tower defense that takes place during WW1. 
     In this game, you have to defeat waves of enemies by placing and upgrading units. 
     I worked on the user interface and the gameplay core mechanics."
