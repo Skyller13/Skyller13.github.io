@@ -57,6 +57,7 @@ projects:
     link: "https://drive.google.com/file/d/1VVd0pPadSf2CuZr5N5XMRIZEnGUL5kYA/view?usp=sharing"
   - title: "inSECURE"
     image: "img/projects/blank.jpg"
+    gif: "img/projects/inSecure.gif"
     description: "In inSECURE, you play an investigator and a former soldier who try to solve the mystery of a series of child abductions in a dystopian world.
     I worked on the user interface and the gameplay core mechanics"
     link: "https://drive.google.com/file/d/1QSvtCIzH1PI-rpZOaKuJoasIuoDErI9F/view?usp=sharing"
