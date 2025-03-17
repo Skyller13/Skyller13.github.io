@@ -118,51 +118,71 @@ projects:
 ##########
 # Skills #
 ##########
+soft_skills:
+  - name: "Problem-Solving"
+    description: "Debugging, optimization, and tackling complex technical challenges."
+    icon: "img/skills/problem_solving.png"
+  - name: Collaboration & Teamwork
+    description: "Working effectively with designers, artists, and fellow developers."
+    icon: "img/skills/teamwork.png"
+  - name: Communication
+    description: "Writing documentation, explaining concepts, and giving technical presentations."
+    icon: "img/skills/communication.png"
+  - name: Project Management
+    description: "Experience with Agile, Scrum, and Kanban methodologies."
+    icon: "img/skills/project_management.png"
+  - name: Time Management
+    description: "Balancing multiple projects and meeting deadlines efficiently."
+    icon: "img/skills/time_management.png"
+  - name: Creativity & Innovation
+    description: "Developing unique mechanics, tools, and technical solutions."
+    icon: "img/skills/creativity_innovation.png"
+    
 game_engines:
   - name: Unity
-    icon: /skills/unity.png
+    icon: "img/skills/unity.png"
   - name: Unreal Engine
-    icon: /skills/unreal.png
+    icon: "img/skills/unreal.png"
 
 project_management:
   - name: Jira
-    icon: /skills/jira.png
+    icon: "img/skills/jira.png"
   - name: Trello
-    icon: /skills/trello.png
+    icon: "img/skills/trello.png"
 
 version_control:
   - name: GitHub
-    icon: /skills/github.png
+    icon: "img/skills/github.png"
   - name: SourceTree
-    icon: /skills/sourcetree.png
+    icon: "img/skills/sourcetree.png"
   - name: Perforce
-    icon: /skills/perforce.png
+    icon: "img/skills/perforce.png"
   - name: Tortoise SVN
-    icon: /skills/svn.png
+    icon: "img/skills/svn.png"
 
 graphics_apis_libraries:
   - name: Vulkan
-    icon: /skills/vulkan.png
+    icon: "img/skills/vulkan.png"
   - name: OpenGL
-    icon: /skills/opengl.png
+    icon: "img/skills/opengl.png"
   - name: CSFML
-    icon: /skills/csfml.png
+    icon: "img/skills/csfml.png"
   - name: OpenCV
-    icon: /skills/opencv.png
+    icon: "img/skills/opencv.png"
   - name: ImGui
-    icon: /skills/imgui.png
+    icon: "img/skills/imgui.png"
 
 programming_languages:
   - name: C
-    icon: /skills/c.png
+    icon: "img/skills/c.png"
   - name: C#
-    icon: /skills/csharp.png
+    icon: "img/skills/csharp.png"
   - name: C++
-    icon: /skills/cplusplus.png
+    icon: "img/skills/cplusplus.png"
   - name: Lua
-    icon: /skills/lua.png
+    icon: "img/skills/lua.png"
   - name: AS3
-    icon: /skills/as3.png
+    icon: "img/skills/as3.png"
 
 ###########
 # Contact #
