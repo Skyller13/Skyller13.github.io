@@ -121,6 +121,7 @@ projects:
 skills:
   - name: "Unity"
     description: "Game Engine"
+    level: 85
 
 ###########
 # Contact #
