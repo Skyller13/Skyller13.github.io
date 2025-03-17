@@ -9,8 +9,7 @@
   </div>
    <div class="skills-container">
         <!-- Soft skills -->
-		  <div class="skill-category">
-		<h3>Soft Skills</h3>
+		  <div class="skill-category">Soft Skills</div>
 		<div class="skills-grid">
 			{% for skill in site.soft_skills %}
 			<div class="skill-item">
@@ -20,11 +19,9 @@
 			</div>
 			{% endfor %}
 		</div>
-   		</div>
 
      <!-- Game Engines -->
-  <div class="skill-category">
-    <h3>Game Engines</h3>
+  <div class="skill-category">Game Engines</div>
     <div class="skills-grid">
       {% for skill in site.game_engines %}
         <div class="skill-item">
@@ -36,8 +33,7 @@
   </div>
   
    <!-- Project management  -->
-  <div class="skill-category">
-    <h3>Project Management</h3>
+  <div class="skill-category">Project Management</div>
     <div class="skills-grid">
       {% for skill in site.project_management %}
         <div class="skill-item">
@@ -49,8 +45,7 @@
   </div>
   
      <!-- Version control  -->
-  <div class="skill-category">
-    <h3>Version Control</h3>
+  <div class="skill-category">Version Control</div>
     <div class="skills-grid">
       {% for skill in site.version_control %}
         <div class="skill-item">
@@ -62,8 +57,7 @@
   </div>
   
      <!-- Graphics APIS  -->
-  <div class="skill-category">
-    <h3>Graphics Apis libraries</h3>
+  <div class="skill-category">Graphics Apis libraries</div>
     <div class="skills-grid">
       {% for skill in site.graphics_apis_libraries %}
         <div class="skill-item">
@@ -75,8 +69,7 @@
   </div>
   
      <!-- Programming languages  -->
-  <div class="skill-category">
-    <h3>Programming languages</h3>
+  <div class="skill-category">Programming languages</div>
     <div class="skills-grid">
       {% for skill in site.programming_languages %}
         <div class="skill-item">
@@ -106,10 +99,11 @@ h2 {
   font-size: 22px;
   font-weight: bold;
   color: #FFFFFF;
-  padding: 10px;
-  background: linear-gradient(to right, #4CAF50, #2E7D32); /* Green gradient */
-  border-radius: 8px;
-  margin: 30px 0;
+  padding: 8px 15px;
+  background: #4CAF50; /* Solid green background */
+  border-radius: 6px;
+  display: inline-block; /* Ensures it doesn't stretch full width */
+  margin: 30px auto;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
