@@ -120,49 +120,49 @@ projects:
 ##########
 game_engines:
   - name: Unity
-    icon: /skills/unity-icon.png
+    icon: /skills/unity.png
   - name: Unreal Engine
-    icon: /skills/unreal-icon.png
+    icon: /skills/unreal.png
 
 project_management:
   - name: Jira
-    icon: /skills/jira-icon.png
+    icon: /skills/jira.png
   - name: Trello
-    icon: /skills/trello-icon.png
+    icon: /skills/trello.png
 
 version_control:
   - name: GitHub
-    icon: /skills/github-icon.png
+    icon: /skills/github.png
   - name: SourceTree
-    icon: /skills/sourcetree-icon.png
+    icon: /skills/sourcetree.png
   - name: Perforce
-    icon: /skills/perforce-icon.png
+    icon: /skills/perforce.png
   - name: Tortoise SVN
-    icon: /skills/svn-icon.png
+    icon: /skills/svn.png
 
 graphics_apis_libraries:
   - name: Vulkan
-    icon: /skills/vulkan-icon.png
+    icon: /skills/vulkan.png
   - name: OpenGL
-    icon: /skills/opengl-icon.png
+    icon: /skills/opengl.png
   - name: CSFML
-    icon: /skills/csfml-icon.png
+    icon: /skills/csfml.png
   - name: OpenCV
-    icon: /skills/opencv-icon.png
+    icon: /skills/opencv.png
   - name: ImGui
-    icon: /skills/imgui-icon.png
+    icon: /skills/imgui.png
 
 programming_languages:
   - name: C
-    icon: /skills/c-icon.png
+    icon: /skills/c.png
   - name: C#
-    icon: /skills/csharp-icon.png
+    icon: /skills/csharp.png
   - name: C++
-    icon: /skills/cplusplus-icon.png
+    icon: /skills/cplusplus.png
   - name: Lua
-    icon: /skills/lua-icon.png
+    icon: /skills/lua.png
   - name: AS3
-    icon: /skills/as3-icon.png
+    icon: /skills/as3.png
 
 ###########
 # Contact #
