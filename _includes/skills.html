@@ -9,15 +9,15 @@
   </div>
    <div class="skills-container">
         <!-- Soft skills -->
-		<div class="skill-category">
-		{% for skill in site.soft_skills %}
+			<div class="skills-grid">
+			{% for skill in site.soft_skills %}
 			<div class="skill-item">
-			<i class="{{ skill.icon }} skill-icon"></i>
+			<img src="{{ skill.icon }}" alt="{{ skill.name }}" class="skill-icon">
 			<h4>{{ skill.name }}</h4>
 			<p>{{ skill.description }}</p>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
-	</div>
    
      <!-- Game Engines -->
   <div class="skill-category">
