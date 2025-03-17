@@ -13,13 +13,15 @@
           <div class="project-card">
 			<div class="image-container">
 				<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
-				{% if project.gif %}
-				<img class="img-fluid overlay-gif" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
-				{% endif %}
 			</div>
             <div class="project-details mt-3">
-              <h4>{{ project.title }}</h4>
-              <p>{{ project.description | markdownify }}</p>
+			{% if project.gif %}
+			<img class="img-fluid overlay-gif" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
+			{% endif %}
+			{% else %}
+			<h4>{{ project.title }}</h4>
+			{% endif %}
+			  <p>{{ project.description | markdownify }}</p>
               <!-- Main Project Link (e.g., download link) -->
               {% if project.link %}
                 <a href="{{ project.link }}" class="btn btn-primary" target="_blank">View Project</a>
@@ -38,28 +40,5 @@
   </div>
   </div>
 </section>
-
-<style>
-  .image-container {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-  }
-  
-  .base-image {
-    display: block;
-    width: 100%;
-  }
-  
-  .overlay-gif {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    pointer-events: none;
-  }
-</style>
 
 <!-- Projects End -->
