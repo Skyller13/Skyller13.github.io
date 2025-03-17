@@ -167,8 +167,8 @@ graphics_apis_libraries:
     icon: "img/skills/vulkan.png"
   - name: OpenGL
     icon: "img/skills/opengl.png"
-  - name: CSFML
-    icon: "img/skills/csfml.png"
+  - name: SFML
+    icon: "img/skills/sfml.png"
   - name: OpenCV
     icon: "img/skills/opencv.png"
   - name: ImGui
