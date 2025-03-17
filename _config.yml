@@ -149,6 +149,8 @@ project_management:
     icon: "img/skills/jira.png"
   - name: Trello
     icon: "img/skills/trello.png"
+  - name: Miro
+    icon: "img/skills/miro.png"
 
 version_control:
   - name: GitHub
