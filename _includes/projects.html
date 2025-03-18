@@ -18,16 +18,14 @@
 			    {% if project.gif %}
                   <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
                 {% else %}
-				<h4>{{ project.title }}</h4>
+					<h4 class="text-center">{{ project.title }}</h4>
                 {% endif %}
 			  <p>{{ project.description | markdownify }}</p>
-			  
 			  <div class="d-flex flex-column align-items-center mt-auto">
               <!-- Main Project Link (e.g., download link) -->
               {% if project.link %}
                 <a href="{{ project.link }}" class="btn btn-primary w-100 mb-2" target="_blank">View Project</a>
               {% endif %}
-
               <!-- Trailer Link (Video Link) -->
               {% if project.trailer %}
                 <a href="{{ project.trailer }}" class="btn btn-secondary w-100" target="_blank">Watch Trailer</a>
@@ -41,5 +39,29 @@
 	</div>
   </div>
 </section>
+
+<style>
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make all project cards equal height */
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Allows the text to expand while keeping buttons aligned */
+  justify-content: space-between; /* Pushes buttons to the bottom */
+}
+
+.project-details p {
+  flex-grow: 1; /* Ensures all descriptions take up equal space */
+}
+
+.project-details .btn {
+  width: 100%; /* Make all buttons the same width */
+  text-align: center; /* Ensures consistent button text alignment */
+}
+</style>
 
 <!-- Projects End -->
