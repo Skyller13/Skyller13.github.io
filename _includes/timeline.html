@@ -35,6 +35,11 @@
         {% endfor %}
 
         <li class="timeline-inverted">
+		<div class="timeline-panel text-start me-3">
+            <div class="timeline-body">
+              {{ site.timeline-description }}
+            </div>
+          </div>
           <div class="timeline-image">
             <img
               class="rounded-circle img-fluid"
@@ -43,11 +48,6 @@
               width="156"
               height="156"
             />
-          </div>
-		    <div class="timeline-panel mt-3 text-center">
-            <div class="timeline-body">
-              {{ site.timeline-description }}
-            </div>
           </div>
         </li>
       </ul>
