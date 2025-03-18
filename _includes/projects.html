@@ -22,6 +22,10 @@
 				{% else %}
 					<h4 class="text-center">{{ project.title }}</h4>
                 {% endif %}
+				<!-- Quick Overview -->
+              {% if project.overview %}
+                <p class="project-overview">{{ project.overview }}</p>
+              {% endif %}
 			  <p>{{ project.description | markdownify }}</p>
 			  <div class="d-flex flex-column align-items-center mt-auto">
               <!-- Main Project Link (e.g., download link) -->
@@ -59,6 +63,11 @@
   flex-direction: column;
   flex-grow: 1; /* Allows the text to expand while keeping buttons aligned */
   justify-content: space-between; /* Pushes buttons to the bottom */
+}
+
+.project-overview {
+  font-size: 0.9em;
+  margin: 5px 0;
 }
 
 .project-details p {
