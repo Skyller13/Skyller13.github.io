@@ -26,7 +26,6 @@
               {% if project.overview %}
                 <p class="project-overview">{{ project.overview }}</p>
               {% endif %}
-			  <div class="project-info">
 			  <p>{{ project.description | markdownify }}</p>
 			  <div class="d-flex flex-column align-items-center mt-auto">
               <!-- Main Project Link (e.g., download link) -->
@@ -38,7 +37,6 @@
                 <a href="{{ project.trailer }}" class="btn btn-secondary w-100" target="_blank">Watch Trailer</a>
               {% endif %}
 			  </div>
-			  </div>
             </div>
           </div>
         </div>
@@ -49,32 +47,6 @@
 </section>
 
 <style>
-summary {
-  list-style: none;
-  cursor: pointer;
-}
-
-/* Prevent ugly default triangle */
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* Smooth transition for expansion */
-.project-info {
-  padding: 0;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
-}
-
-/* Expand when details is open */
-details[open] .project-info {
-  max-height: 500px; /* Adjust for content size */
-  opacity: 1;
-  padding: 10px; /* Ensure smooth appearance */
-}
-
 .image-container img {
   display: block;
   transition: transform 0.3s ease-in-out;
