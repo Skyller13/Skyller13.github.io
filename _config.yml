@@ -44,6 +44,7 @@ events:
     
 # First image of the Timeline
 timeline-img: "/img/timeline/young_me.jpg"
+timeline-description: "A younger version of me ready to overcome challenges!"
 
 ############
 # PROJECTS #
