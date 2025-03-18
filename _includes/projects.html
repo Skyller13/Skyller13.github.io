@@ -17,7 +17,9 @@
             <div class="project-details mt-3">
 			    {% if project.gif %}
                   <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
-                {% else %}
+				{% elsif project.alt_image %}
+					<img class="img-fluid" src="{{ site.url }}/{{ project.alt_image }}" alt="{{ project.title }}" width="100%" />
+				{% else %}
 					<h4 class="text-center">{{ project.title }}</h4>
                 {% endif %}
 			  <p>{{ project.description | markdownify }}</p>
