@@ -75,6 +75,21 @@ details[open] .project-info {
   padding: 10px; /* Ensure smooth appearance */
 }
 
+summary::after {
+  content: "▼";
+  display: inline-block;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+
+summary:hover {
+  opacity: 0.8;
+}
+
 .image-container img {
   display: block;
   transition: transform 0.3s ease-in-out;
