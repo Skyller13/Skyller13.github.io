@@ -150,6 +150,8 @@ project_management:
     icon: "img/skills/trello.png"
   - name: Miro
     icon: "img/skills/miro.png"
+  - name: Confluence
+    icon: "img/skills/confluence.png"
 
 version_control:
   - name: GitHub
