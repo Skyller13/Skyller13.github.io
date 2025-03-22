@@ -30,24 +30,22 @@
 			  <div class="d-flex flex-column align-items-center mt-auto">
               <!-- Main Project Link (e.g., download link) -->
               {% if project.link %}
-				<a class="fancy" href="project.link">
+				<a class="fancy" href="{{ project.link }}">
 					<span class="top-key"></span>
 					<span class="text">View Project</span>
 					<span class="bottom-key-1"></span>
 					<span class="bottom-key-2"></span>
 				</a>
-                <!-- <a href="{{ project.link }}" class="btn btn-primary w-100 mb-2" target="_blank">View Project</a> -->
               {% endif %}
 			  <br>
               <!-- Trailer Link (Video Link) -->
               {% if project.trailer %}
-				<a class="fancy" href="project.trailer">
+				<a class="fancy" href="{{ project.trailer }}">
 					<span class="top-key"></span>
 					<span class="text">Watch Trailer</span>
 					<span class="bottom-key-1"></span>
 					<span class="bottom-key-2"></span>
 				</a>
-                <!-- <a href="{{ project.trailer }}" class="btn btn-secondary w-100" target="_blank">Watch Trailer</a> -->
               {% endif %}
 			  </div>
             </div>
