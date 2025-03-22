@@ -118,7 +118,9 @@ projects:
     link: "https://drive.google.com/file/d/1YNIwSxTuVZ_0A6HAiZ9Mo1ddhMhRkGJx/view?usp=sharing"
   - title: "Okawari"
     image: "img/projects/Okawari.png"
-    overview1: "3D - C# - VR"
+    overview1: "3D"
+    overview2: "C#"
+    overview3: "VR"
     description: "Four users are invited to sit at one of the tables in the Okawari restaurant to discover a wide variety of dishes and drinks from the Japanese izakaya gastronomy.
     I mainly worked on content integration, developed some gameplay mechanics and set up UI."
     link: "https://www.labiennale.org/en/cinema/2022/venice-immersive/okawari"
