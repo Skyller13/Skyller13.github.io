@@ -30,7 +30,7 @@
 			  <div class="d-flex flex-column align-items-center mt-auto">
               <!-- Main Project Link (e.g., download link) -->
               {% if project.link %}
-				<a class="fancy" href="#">
+				<a class="fancy" href="project.link">
 					<span class="top-key"></span>
 					<span class="text">View Project</span>
 					<span class="bottom-key-1"></span>
@@ -41,7 +41,7 @@
 			  <br>
               <!-- Trailer Link (Video Link) -->
               {% if project.trailer %}
-				<a class="fancy" href="#">
+				<a class="fancy" href="project.trailer">
 					<span class="top-key"></span>
 					<span class="text">Watch Trailer</span>
 					<span class="bottom-key-1"></span>
@@ -85,11 +85,6 @@
 
 .project-details p {
   flex-grow: 1; /* Ensures all descriptions take up equal space */
-}
-
-.project-details .btn {
-  width: 100%; /* Make all buttons the same width */
-  text-align: center; /* Ensures consistent button text alignment */
 }
 
 .fancy {
