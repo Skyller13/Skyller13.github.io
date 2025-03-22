@@ -6,83 +6,153 @@
 >
   <div class="row justify-content-center">
     <div class="col-12">{{ page.content | markdownify }}</div>
- 
 	<div class="row justify-content-center">
         {% for project in site.projects %}
         <div class="col-md-4 col-12 mb-4 d-flex">
-          <div class="project-card d-flex flex-column w-100">
-			<div class="image-container">
-				<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%" />
+			<div class="card">
+				<div class="image-container">
+					<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%"/>
+				</div>
+				<div class="overview__container">
+					<div class="overview">{{project.overview1}}</div>
+					<div class="overview">{{project.overview2}}</div>
+					<div class="overview">{{project.overview3}}</div>
+				</div>
+				<div class="card__content">
+					{% if project.gif %}
+					<img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%"/>
+					{% elsif project.alt_image %}
+					<img class="img-fluid" src="{{ site.url }}/{{ project.alt_image }}" alt="{{ project.title }}" width="100%"/>
+					{% else %}
+					<p class="card__title">{{project.title}}</p>
+					{% endif %}
+					<p class="card__description">{{ project.description }}</p>
+					<!-- Main Project Link (e.g., download link) -->
+					{% if project.link %}
+					<a class="fancy" href="{{ project.link }}">
+						<span class="top-key"></span>
+						<span class="text">View Project</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+					{% endif %}
+					<!-- Trailer Link (Video Link) -->
+					{% if project.trailer %}
+					<a class="fancy" href="{{ project.trailer }}">
+						<span class="top-key"></span>
+						<span class="text">Watch Trailer</span>
+						<span class="bottom-key-1"></span>
+						<span class="bottom-key-2"></span>
+					</a>
+					{% endif %}
+				</div>
 			</div>
-            <div class="project-details mt-3">
-			    {% if project.gif %}
-                  <img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%" />
-				{% elsif project.alt_image %}
-					<img class="img-fluid" src="{{ site.url }}/{{ project.alt_image }}" alt="{{ project.title }}" width="100%" />
-				{% else %}
-					<h4 class="text-center">{{ project.title }}</h4>
-                {% endif %}
-				<!-- Quick Overview -->
-              {% if project.overview %}
-                <p class="project-overview">{{ project.overview }}</p>
-              {% endif %}
-			  <p>{{ project.description | markdownify }}</p>
-			  <div class="d-flex flex-column align-items-center mt-auto">
-              <!-- Main Project Link (e.g., download link) -->
-              {% if project.link %}
-				<a class="fancy" href="{{ project.link }}">
-					<span class="top-key"></span>
-					<span class="text">View Project</span>
-					<span class="bottom-key-1"></span>
-					<span class="bottom-key-2"></span>
-				</a>
-              {% endif %}
-			  <br>
-              <!-- Trailer Link (Video Link) -->
-              {% if project.trailer %}
-				<a class="fancy" href="{{ project.trailer }}">
-					<span class="top-key"></span>
-					<span class="text">Watch Trailer</span>
-					<span class="bottom-key-1"></span>
-					<span class="bottom-key-2"></span>
-				</a>
-              {% endif %}
-			  </div>
-            </div>
-          </div>
-        </div>
+		</div>
         {% endfor %}
-      </div>
 	</div>
   </div>
 </section>
 
 <style>
-.image-container img {
-  display: block;
-  transition: transform 0.3s ease-in-out;
+.overview__container {
+  position:absolute;
+  bottom:0;
 }
 
-.project-card {
+.overview {
+  font-size: 1rem;
+  color: #fafafa;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #808080;
+  background: #252525;
+  box-shadow: 5px 5px #e9e9e9;
+  position:relative;
+  bottom:20px;
+  display:inline-block;
+  margin-right:5px;
+}
+
+.card {
+  position: relative;
+  width: 350px;
+  aspect-ratio: 16/9;
+  background-color: #f2f2f2;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
-  height: 100%; /* Make all project cards equal height */
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  box-shadow: 0 0 0 5px #ffffff80;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.project-details {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1; /* Allows the text to expand while keeping buttons aligned */
-  justify-content: space-between; /* Pushes buttons to the bottom */
+.card svg {
+  width: 48px;
+  fill: #333;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.project-overview {
-  font-size: 0.9em;
-  margin: 5px 0;
+.card__image {
+  width: 100%;
+  height: 100%;
 }
 
-.project-details p {
-  flex-grow: 1; /* Ensures all descriptions take up equal space */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card:hover .card__content {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+  font-weight: 700;
+}
+
+.card:hover svg {
+  scale: 0;
+}
+
+.card__description {
+  margin: 10px 0 10px;
+  font-size: 12px;
+  color: #777;
+  line-height: 1.4;
+}
+
+.card__button {
+  padding: 15px;
+  border-radius: 8px;
+  background: #777;
+  border: none;
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  color: #777;
+  border: 1px solid #777;
 }
 
 .fancy {
