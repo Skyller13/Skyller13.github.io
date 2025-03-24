@@ -34,23 +34,25 @@
 					{% endif %}
 					<p class="card__description">{{ project.description }}</p>
 					<!-- Main Project Link (e.g., download link) -->
-					{% if project.link %}
-					<a class="fancy" href="{{ project.link }}">
-						<span class="top-key"></span>
-						<span class="text">View Project</span>
-						<span class="bottom-key-1"></span>
-						<span class="bottom-key-2"></span>
-					</a>
+					<div class="wrapper">
+						{% if project.link %}
+						<a class="fancy" href="{{ project.link }}">
+							<span class="top-key"></span>
+							<span class="text">View Project</span>
+							<span class="bottom-key-1"></span>
+							<span class="bottom-key-2"></span>
+						</a>
+						{% endif %}
+						<!-- Trailer Link (Video Link) -->
+						{% if project.trailer %}
+						<a class="fancy" href="{{ project.trailer }}">
+							<span class="top-key"></span>
+							<span class="text">Watch Trailer</span>
+							<span class="bottom-key-1"></span>
+							<span class="bottom-key-2"></span>
+						</a>
 					{% endif %}
-					<!-- Trailer Link (Video Link) -->
-					{% if project.trailer %}
-					<a class="fancy" href="{{ project.trailer }}">
-						<span class="top-key"></span>
-						<span class="text">Watch Trailer</span>
-						<span class="bottom-key-1"></span>
-						<span class="bottom-key-2"></span>
-					</a>
-					{% endif %}
+					</div>
 				</div>
 			</div>
 		</div>
@@ -60,6 +62,10 @@
 </section>
 
 <style>
+.wrapper {
+	text-align: center;
+}
+
 .overview__container {
   position:absolute;
   bottom:0;
