@@ -83,10 +83,14 @@
 }
 
 .card__container {
-  padding:20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
 }
 
 .card {
+  padding: 20px;
   position: relative;
   width: 350px;
   aspect-ratio: 16/9;
@@ -189,6 +193,7 @@
  transition: all 0.3s ease-in-out;
  user-select: none;
  font-size: 13px;
+ width: max-content;
 }
 
 .fancy::before {
