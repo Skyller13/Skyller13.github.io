@@ -105,7 +105,6 @@ projects:
     image: "img/projects/Tools.png"
     overview1: "Tools"
     overview2: "Batch"
-    overview3: "Windows"
     description: "This little script is a batch script for renaming files in a given folder. Using a prompt and a path given by the user, 
     it iterates through all files in the specified folder and renames each file, appending an incrementing counter and keeping the original file extension."
     link: "https://drive.google.com/file/d/1trvxl7JZXpMdI21mED94GxNTgQ0Zx1Wd/view?usp=sharing"
@@ -113,7 +112,6 @@ projects:
     image: "img/projects/Tools.png"
     overview1: "Tools"
     overview2: "Batch"
-    overview3: "Windows"
     description: "This second version of this script is a batch script designed for renaming files in order, but this time it adds a prefix to the beginning of each file's name."
     link: "https://drive.google.com/file/d/1YNIwSxTuVZ_0A6HAiZ9Mo1ddhMhRkGJx/view?usp=sharing"
   - title: "Okawari"

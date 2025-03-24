@@ -14,9 +14,15 @@
 					<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%"/>
 				</div>
 				<div class="overview__container">
+					{% if project.overview1 %}
 					<div class="overview">{{project.overview1}}</div>
+					{% endif %}
+					{% if project.overview2 %}
 					<div class="overview">{{project.overview2}}</div>
+					{% endif %}
+					{% if project.overview3 %}
 					<div class="overview">{{project.overview3}}</div>
+					{% endif %}
 				</div>
 				<div class="card__content">
 					{% if project.gif %}
