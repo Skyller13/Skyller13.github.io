@@ -9,30 +9,32 @@
 	<div class="row justify-content-center">
         {% for project in site.projects %}
         <div class="col-md-4 col-12 mb-4 d-flex">
-			<div class="card">
-				<div class="image-container">
-					<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%"/>
-				</div>
-				<div class="overview__container">
-					{% if project.overview1 %}
-					<div class="overview">{{project.overview1}}</div>
-					{% endif %}
-					{% if project.overview2 %}
-					<div class="overview">{{project.overview2}}</div>
-					{% endif %}
-					{% if project.overview3 %}
-					<div class="overview">{{project.overview3}}</div>
-					{% endif %}
-				</div>
-				<div class="card__content">
-					{% if project.gif %}
-					<img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%"/>
-					{% elsif project.alt_image %}
-					<img class="img-fluid" src="{{ site.url }}/{{ project.alt_image }}" alt="{{ project.title }}" width="100%"/>
-					{% else %}
-					<p class="card__title">{{project.title}}</p>
-					{% endif %}
-					<p class="card__description">{{ project.description }}</p>
+			<div class="card__container">
+				<div class="card">
+					<div class="image-container">
+						<img class="img-fluid base-image" src="{{ site.url }}/{{ project.image }}" alt="{{ project.title }}" width="100%"/>
+					</div>
+					<div class="overview__container">
+						{% if project.overview1 %}
+						<div class="overview">{{project.overview1}}</div>
+						{% endif %}
+						{% if project.overview2 %}
+						<div class="overview">{{project.overview2}}</div>
+						{% endif %}
+						{% if project.overview3 %}
+						<div class="overview">{{project.overview3}}</div>
+						{% endif %}
+					</div>
+					<div class="card__content">
+						{% if project.gif %}
+						<img class="img-fluid" src="{{ site.url }}/{{ project.gif }}" alt="{{ project.title }}" width="100%"/>
+						{% elsif project.alt_image %}
+						<img class="img-fluid" src="{{ site.url }}/{{ project.alt_image }}" alt="{{ project.title }}" width="100%"/>
+						{% else %}
+						<p class="card__title">{{project.title}}</p>
+						{% endif %}
+						<p class="card__description">{{ project.description }}</p>
+					</div>
 				</div>
 				<!-- Main Project Link (e.g., download link) -->
 				{% if project.link %}
