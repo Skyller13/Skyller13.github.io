@@ -34,26 +34,26 @@
 					{% endif %}
 					<p class="card__description">{{ project.description }}</p>
 				</div>
+				<!-- Main Project Link (e.g., download link) -->
+				{% if project.link %}
+				<a class="fancy" href="{{ project.link }}">
+					<span class="top-key"></span>
+					<span class="text">View Project</span>
+					<span class="bottom-key-1"></span>
+					<span class="bottom-key-2"></span>
+				</a>
+				{% endif %}
+				<br>
+				<!-- Trailer Link (Video Link) -->
+				{% if project.trailer %}
+				<a class="fancy" href="{{ project.trailer }}">
+					<span class="top-key"></span>
+					<span class="text">Watch Trailer</span>
+					<span class="bottom-key-1"></span>
+					<span class="bottom-key-2"></span>
+				</a>
+				{% endif %}
 			</div>
-			<!-- Main Project Link (e.g., download link) -->
-			{% if project.link %}
-			<a class="fancy" href="{{ project.link }}">
-				<span class="top-key"></span>
-				<span class="text">View Project</span>
-				<span class="bottom-key-1"></span>
-				<span class="bottom-key-2"></span>
-			</a>
-			{% endif %}
-			<br>
-			<!-- Trailer Link (Video Link) -->
-			{% if project.trailer %}
-			<a class="fancy" href="{{ project.trailer }}">
-				<span class="top-key"></span>
-				<span class="text">Watch Trailer</span>
-				<span class="bottom-key-1"></span>
-				<span class="bottom-key-2"></span>
-			</a>
-			{% endif %}
 		</div>
         {% endfor %}
 	</div>
