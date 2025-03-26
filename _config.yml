@@ -64,7 +64,7 @@ projects:
     overview3: "Investigation"
     gif: "img/projects/inSecure.gif"
     description: "In inSECURE, you play an investigator and a former soldier who try to solve the mystery of a series of child abductions in a dystopian world.
-    I worked on the user interface and the gameplay core mechanics"
+    I worked on the user interface and the gameplay core mechanics."
     link: "https://drive.google.com/file/d/1QSvtCIzH1PI-rpZOaKuJoasIuoDErI9F/view?usp=sharing"
     trailer: "https://isaacmontagne.fr/assets/video/insecure/trailer.webm"
   - title: "Stack"
@@ -98,8 +98,8 @@ projects:
     overview1: "3D"
     overview2: "C++"
     overview3: "Racing"
-    description: "The Crew 2 is an arcade racing video game developed by Ivory Tower and published by Ubisoft.
-    I worked as a trainee UI programmer and mainly contributed to the creation of a new menu for one of the game updates."
+    description: "An arcade racing video game developed by Ivory Tower and published by Ubisoft.
+    Worked as a trainee UI programmer and contributed to the menu's creation and live game updates."
     trailer: "https://www.youtube.com/watch?v=7Dj6M85WCm8"
   - title: "Renamer"
     image: "img/projects/Tools.png"
