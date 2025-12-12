@@ -30,7 +30,7 @@ me-img: "https://github.com/Skyller13.png?size=500"
 ############
 events:
   - image: "/img/timeline/dpt.png"
-    date: "May 2022 - Today"
+    date: "May 2022 - November 2025"
     description: "Programming software applications"
   - image: "/img/timeline/IvoryTower.png"
     date: "July 2021 - December 2021"
@@ -143,14 +143,13 @@ projects:
     overview1: "Design"
     overview2: "Tabletop"
     overview3: "RPG"
-    description: "Nerisia is a tabletop game that I am designing, inspired by the iconic Dungeons & Dragons but also by many video games such as Skyrim, The Witcher, Kingdom of Amalur : Reckoning."
+    description: "Nerisia is a Daggerheart campaign that I am designing, inspired by the iconic Critical Role but also by many video games such as Skyrim, The Witcher, Kingdom of Amalur : Reckoning."
   - title: "Spread"
     image: "img/projects/Game.png"
     overview1: "3D"
     overview2: "C#"
-    overview3: "Turn Based"
-    description: "Spread is a 3D game that I am working on where you play in a post-apocalyptic world where each character is mortal and has it's very own quests.
-    Inspired by many zombie games such as Dying Light, Dead Island and World War Z."
+    overview3: "TPS Survival"
+    description: "Spread is a survival RPG game that I'm working on with Unity. Embody characters altered by technology and become the ultimate survivalist of the wastelands."
 
 ##########
 # Skills #
