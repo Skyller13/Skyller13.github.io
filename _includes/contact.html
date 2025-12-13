@@ -14,7 +14,7 @@
             return user && domain ? user + "@" + domain : "";
           }
           document.write(
-            '<a href="mailto:' +
+            '<a style="color: #cd2764" href="mailto:' +
               join_at_email("{{ newemail[0] }}", "{{ newemail[1] }}") +
 			  '"><i class="fas fa-envelope"></i> ' +
               join_at_email("{{ newemail[0] }}", "{{ newemail[1] }}") +
@@ -23,13 +23,13 @@
         </script>
       </p>
       {% else %}
-      <p><a href="mailto:{{ site.email }}" style="color: #761b3e"><i class="fas fa-envelope"></i>{{ site.email }}</a></p>
+      <p><a href="mailto:{{ site.email }}" style="color: #cd2764"><i class="fas fa-envelope"></i>{{ site.email }}</a></p>
       {% endif %} {% endif %}
 	  
 	  <! -- Phone Number Section -->
 	{% if site.phone %}
 	<p>
-		<a href="tel:{{ site.phone }}" style="color: #761b3e">
+		<a href="tel:{{ site.phone }}" style="color: #cd2764">
 		 <i class="fas fa-phone"></i> {{ site.phone }}
 		</a>
 	</p>
