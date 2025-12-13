@@ -23,13 +23,13 @@
         </script>
       </p>
       {% else %}
-      <p><a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i>{{ site.email }}</a></p>
+      <p><a href="mailto:{{ site.email }}" style="color: #761b3e"><i class="fas fa-envelope"></i>{{ site.email }}</a></p>
       {% endif %} {% endif %}
 	  
 	  <! -- Phone Number Section -->
 	{% if site.phone %}
 	<p>
-		<a href="tel:{{ site.phone }}">
+		<a href="tel:{{ site.phone }}" style="color: #761b3e">
 		 <i class="fas fa-phone"></i> {{ site.phone }}
 		</a>
 	</p>

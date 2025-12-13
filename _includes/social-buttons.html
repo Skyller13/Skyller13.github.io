@@ -4,14 +4,14 @@
   {% for network in site.social %} 
     {% if network.icon == "rss" %}
     <li class="list-inline-item">
-      <a href="{{ network.url }}" target="_blank">
+      <a href="{{ network.url }}" target="_blank" style="color: #761b3e">
         <i class="fas fa-{{ network.icon }}"></i>
         <!-- Using 'fas' for FontAwesome Solid -->
       </a>
     </li>
     {% else %}
     <li class="list-inline-item">
-      <a href="{{ network.url }}" target="_blank">
+      <a href="{{ network.url }}" target="_blank" style="color: #761b3e">
         <i class="fab fa-{{ network.icon }}"></i>
         <!-- Using 'fab' for FontAwesome Brands -->
       </a>
