@@ -47,6 +47,15 @@ events:
 ############
 # PROJECTS #
 ############
+latest_project_banner:
+  enabled: true
+  title: "New Project: Spread"
+  subtitle: "Watch the latest gameplay/devlog on YouTube"
+  image: "img/projects/spread-banner.jpg"
+  button_text: "Watch on YouTube"
+  video_url: "https://www.youtube.com/watch?v=dVnFjE4gb9Y"
+  open_in_new_tab: true
+
 projects:
   - title: "Okawari"
     image: "img/projects/Okawari.png"

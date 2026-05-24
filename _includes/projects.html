@@ -6,7 +6,44 @@
 >
   <div class="row justify-content-center">
     <div class="col-12">{{ page.content | markdownify }}</div>
-	<div class="row justify-content-center">
+  <div class="row justify-content-center">
+    {% if site.latest_project_banner and site.latest_project_banner.enabled %}
+    <div class="col-12">
+      <section class="latest-project-banner">
+        {% assign yt_embed_url = site.latest_project_banner.video_url | replace: 'https://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'http://www.youtube.com/watch?v=', 'https://www.youtube.com/embed/' | replace: 'https://youtu.be/', 'https://www.youtube.com/embed/' | replace: 'http://youtu.be/', 'https://www.youtube.com/embed/' %}
+        <div class="latest-project-banner__media">
+          {% if site.latest_project_banner.video_url %}
+          <iframe
+            src="{{ yt_embed_url }}"
+            title="{{ site.latest_project_banner.title }}"
+            class="latest-project-banner__iframe"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+          {% elsif site.latest_project_banner.image %}
+          <img
+            src="{{ site.url }}/{{ site.latest_project_banner.image }}"
+            alt="{{ site.latest_project_banner.title }}"
+            class="latest-project-banner__image"
+          />
+          {% endif %}
+        </div>
+        <div class="latest-project-banner__content">
+          <h3>{{ site.latest_project_banner.title }}</h3>
+          <p>{{ site.latest_project_banner.subtitle }}</p>
+          <a
+            href="{{ site.latest_project_banner.video_url }}"
+            class="latest-project-banner__button"
+            {% if site.latest_project_banner.open_in_new_tab %}target="_blank" rel="noopener noreferrer"{% endif %}
+          >
+            {{ site.latest_project_banner.button_text }}
+          </a>
+        </div>
+      </section>
+    </div>
+    {% endif %}
         {% for project in site.projects %}
         <div class="col-md-4 col-12 mb-4 d-flex">
 			<div class="card__container">
@@ -62,6 +99,73 @@
 </section>
 
 <style>
+.latest-project-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  margin: 0.5rem auto 2rem;
+  padding: 1rem;
+  border-radius: 14px;
+  border: 1px solid #3a3a3a;
+  background:
+    radial-gradient(circle at top right, rgba(255, 255, 255, 0.1), transparent 45%),
+    linear-gradient(120deg, #111827 0%, #1f2937 100%);
+}
+
+.latest-project-banner__image {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  max-height: 320px;
+}
+
+.latest-project-banner__media {
+  width: 100%;
+}
+
+.latest-project-banner__iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.latest-project-banner__content {
+  text-align: left;
+}
+
+.latest-project-banner__content h3 {
+  margin: 0 0 0.5rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.latest-project-banner__content p {
+  margin: 0;
+  color: #d5d7dd;
+  line-height: 1.5;
+}
+
+.latest-project-banner__button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.65rem 1.1rem;
+  border-radius: 999px;
+  background: #ef4444;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.latest-project-banner__button:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
+
 .overview__container {
   position:absolute;
   bottom:0;
@@ -275,6 +379,16 @@
  .fancy:hover .bottom-key-2 {
  right: 0;
  width: 0;
+}
+
+@media (max-width: 992px) {
+  .latest-project-banner {
+    grid-template-columns: 1fr;
+  }
+
+  .latest-project-banner__content {
+    text-align: center;
+  }
 }
 </style>
 
