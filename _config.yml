@@ -153,13 +153,7 @@ projects:
     overview2: "Tabletop"
     overview3: "RPG"
     description: "Nerisia is a Daggerheart campaign that I am designing, inspired by the iconic Critical Role but also by many video games such as Skyrim, The Witcher, Kingdom of Amalur : Reckoning."
-  - title: "Spread"
-    image: "img/projects/Game.png"
-    overview1: "3D"
-    overview2: "C#"
-    overview3: "TPS Survival"
-    description: "Spread is a survival RPG game that I'm working on with Unity. Embody characters altered by technology and become the ultimate survivalist of the wastelands."
-
+    
 ##########
 # Skills #
 ##########
