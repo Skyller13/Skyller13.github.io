@@ -148,7 +148,7 @@ projects:
     overview1: "3D"
     overview2: "C++"
     overview3: "Vulkan"
-    description: "This personal project is a little 3D game engine used to learn Vulkan with the usage C++."
+    description: "This personal project is a little 3D game engine used to learn Vulkan with the usage of C++."
     link: "https://github.com/Skyller13/DaisyEngine"
   - title: "Nerisia"
     image: "img/projects/Nerisia.png"
