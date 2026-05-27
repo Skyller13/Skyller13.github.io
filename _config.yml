@@ -29,6 +29,9 @@ me-img: "https://github.com/Skyller13.png?size=500"
 # Timeline #
 ############
 events:
+  - image: "/img/timeline/Spread.png"
+    date: "November 2025 - Present"
+    description: "Developing my own game project, Spread, a 3D action-adventure game set in a post-apocalyptic world."
   - image: "/img/timeline/dpt.png"
     date: "May 2022 - November 2025"
     description: "Programming software applications"
@@ -222,10 +225,14 @@ programming_languages:
     icon: "img/skills/csharp.png"
   - name: C++
     icon: "img/skills/cplusplus.png"
+  - name: Python
+    icon: "img/skills/python.png"
   - name: Lua
     icon: "img/skills/lua.png"
   - name: AS3
     icon: "img/skills/as3.png"
+  - name: SQL
+    icon: "img/skills/sql.png"
 
 ###########
 # Contact #
@@ -244,7 +251,9 @@ social:
   - icon: "linkedin-in"
     url: "https://www.linkedin.com/in/gaetan-barriol/"
   - icon: "youtube"
-    url: "https://www.youtube.com/@gbarriol"
+    url: "https://www.youtube.com/@SpreadProject"
+  - icon: "resume"
+    url: "https://docs.google.com/document/d/1cSm1rtu6jYx2ok7MsEri5Svg-6z5Aovo/edit?usp=sharing&ouid=111949628330126038126&rtpof=true&sd=true"
 
 # NB! Tread carefully if you want to change the variables below this point!
 
