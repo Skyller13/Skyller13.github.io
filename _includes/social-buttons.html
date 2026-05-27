@@ -9,6 +9,12 @@
         <!-- Using 'fas' for FontAwesome Solid -->
       </a>
     </li>
+    {% elsif network.icon == "resume" %}
+    <li class="list-inline-item">
+      <a href="{{ network.url }}" target="_blank" style="color: #cd2764">
+        <img src="{{ site.url }}/{{ network.img }}" alt="Resume" width="24" height="24"/>
+      </a>
+    </li>
     {% else %}
     <li class="list-inline-item">
       <a href="{{ network.url }}" target="_blank" style="color: #cd2764">

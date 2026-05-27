@@ -29,7 +29,7 @@ me-img: "https://github.com/Skyller13.png?size=500"
 # Timeline #
 ############
 events:
-  - image: "/img/timeline/Spread.png"
+  - image: "/img/timeline/Spread.jpg"
     date: "November 2025 - Present"
     description: "Developing my own game project, Spread, a 3D action-adventure game set in a post-apocalyptic world."
   - image: "/img/timeline/dpt.png"
@@ -253,6 +253,7 @@ social:
   - icon: "youtube"
     url: "https://www.youtube.com/@SpreadProject"
   - icon: "resume"
+    img: "img/resume.png"
     url: "https://docs.google.com/document/d/1cSm1rtu6jYx2ok7MsEri5Svg-6z5Aovo/edit?usp=sharing&ouid=111949628330126038126&rtpof=true&sd=true"
 
 # NB! Tread carefully if you want to change the variables below this point!
